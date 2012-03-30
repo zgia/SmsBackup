@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		992AD4E313BC5A1600417F03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992AD4E213BC5A1600417F03 /* UIKit.framework */; };
+		992AD4E513BC5A1600417F03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992AD4E413BC5A1600417F03 /* Foundation.framework */; };
+		992AD4E713BC5A1600417F03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992AD4E613BC5A1600417F03 /* CoreGraphics.framework */; };
+		992AD4ED13BC5A1600417F03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 992AD4EB13BC5A1600417F03 /* InfoPlist.strings */; };
+		992AD4F013BC5A1600417F03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 992AD4EF13BC5A1600417F03 /* main.m */; };
+		992AD4F313BC5A1600417F03 /* SmsBackupAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 992AD4F213BC5A1600417F03 /* SmsBackupAppDelegate.m */; };
+		992AD4F613BC5A1600417F03 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992AD4F413BC5A1600417F03 /* MainWindow.xib */; };
+		992AD4F913BC5A1600417F03 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 992AD4F813BC5A1600417F03 /* RootViewController.m */; };
+		992AD4FC13BC5A1600417F03 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992AD4FA13BC5A1600417F03 /* RootViewController.xib */; };
+		992AD51213BC5AAD00417F03 /* ArrayHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 992AD50513BC5AAC00417F03 /* ArrayHelper.m */; };
+		992AD51313BC5AAD00417F03 /* DB.m in Sources */ = {isa = PBXBuildFile; fileRef = 992AD50713BC5AAC00417F03 /* DB.m */; };
+		992AD51713BC5AAD00417F03 /* SMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 992AD50E13BC5AAD00417F03 /* SMS.m */; };
+		992AD51813BC5AAD00417F03 /* SQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 992AD51113BC5AAD00417F03 /* SQLiteHelper.m */; };
+		992AD51A13BC5B9400417F03 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992AD51913BC5B9400417F03 /* SystemConfiguration.framework */; };
+		992AD52613BC5FFD00417F03 /* SMSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 992AD52413BC5FFB00417F03 /* SMSViewController.m */; };
+		992AD52713BC5FFD00417F03 /* SMSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992AD52513BC5FFC00417F03 /* SMSViewController.xib */; };
+		992AD54D13BC6FA800417F03 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 992AD54B13BC6FA800417F03 /* Icon@2x.png */; };
+		997A61181525656D00746AA5 /* MiscHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 997A61171525656D00746AA5 /* MiscHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		992AD4DE13BC5A1600417F03 /* SmsBackup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmsBackup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		992AD4E213BC5A1600417F03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		992AD4E413BC5A1600417F03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		992AD4E613BC5A1600417F03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		992AD4EA13BC5A1600417F03 /* SmsBackup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmsBackup-Info.plist"; sourceTree = "<group>"; };
+		992AD4EC13BC5A1600417F03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		992AD4EE13BC5A1600417F03 /* SmsBackup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmsBackup-Prefix.pch"; sourceTree = "<group>"; };
+		992AD4EF13BC5A1600417F03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		992AD4F113BC5A1600417F03 /* SmsBackupAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmsBackupAppDelegate.h; sourceTree = "<group>"; };
+		992AD4F213BC5A1600417F03 /* SmsBackupAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmsBackupAppDelegate.m; sourceTree = "<group>"; };
+		992AD4F513BC5A1600417F03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		992AD4F713BC5A1600417F03 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		992AD4F813BC5A1600417F03 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		992AD4FB13BC5A1600417F03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		992AD50413BC5AAC00417F03 /* ArrayHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayHelper.h; sourceTree = "<group>"; };
+		992AD50513BC5AAC00417F03 /* ArrayHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayHelper.m; sourceTree = "<group>"; };
+		992AD50613BC5AAC00417F03 /* DB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DB.h; sourceTree = "<group>"; };
+		992AD50713BC5AAC00417F03 /* DB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DB.m; sourceTree = "<group>"; };
+		992AD50813BC5AAC00417F03 /* MiscHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiscHelper.h; sourceTree = "<group>"; };
+		992AD50D13BC5AAD00417F03 /* SMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMS.h; sourceTree = "<group>"; };
+		992AD50E13BC5AAD00417F03 /* SMS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMS.m; sourceTree = "<group>"; };
+		992AD50F13BC5AAD00417F03 /* SMSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSConfig.h; sourceTree = "<group>"; };
+		992AD51013BC5AAD00417F03 /* SQLiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteHelper.h; sourceTree = "<group>"; };
+		992AD51113BC5AAD00417F03 /* SQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteHelper.m; sourceTree = "<group>"; };
+		992AD51913BC5B9400417F03 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		992AD52313BC5FFB00417F03 /* SMSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSViewController.h; sourceTree = "<group>"; };
+		992AD52413BC5FFB00417F03 /* SMSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSViewController.m; sourceTree = "<group>"; };
+		992AD52513BC5FFC00417F03 /* SMSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMSViewController.xib; sourceTree = "<group>"; };
+		992AD54A13BC6FA800417F03 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		992AD54B13BC6FA800417F03 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		997A61171525656D00746AA5 /* MiscHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiscHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		992AD4DB13BC5A1600417F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992AD51A13BC5B9400417F03 /* SystemConfiguration.framework in Frameworks */,
+				992AD4E313BC5A1600417F03 /* UIKit.framework in Frameworks */,
+				992AD4E513BC5A1600417F03 /* Foundation.framework in Frameworks */,
+				992AD4E713BC5A1600417F03 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		992AD4D313BC5A1600417F03 = {
+			isa = PBXGroup;
+			children = (
+				992AD4E813BC5A1600417F03 /* SmsBackup */,
+				992AD4E113BC5A1600417F03 /* Frameworks */,
+				992AD4DF13BC5A1600417F03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		992AD4DF13BC5A1600417F03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				992AD4DE13BC5A1600417F03 /* SmsBackup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		992AD4E113BC5A1600417F03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				992AD51913BC5B9400417F03 /* SystemConfiguration.framework */,
+				992AD4E213BC5A1600417F03 /* UIKit.framework */,
+				992AD4E413BC5A1600417F03 /* Foundation.framework */,
+				992AD4E613BC5A1600417F03 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		992AD4E813BC5A1600417F03 /* SmsBackup */ = {
+			isa = PBXGroup;
+			children = (
+				992AD52B13BC65CE00417F03 /* Xibs */,
+				992AD52A13BC64B500417F03 /* Models */,
+				992AD52913BC646A00417F03 /* Utils */,
+				992AD52813BC645300417F03 /* Views */,
+				992AD50F13BC5AAD00417F03 /* SMSConfig.h */,
+				992AD4F113BC5A1600417F03 /* SmsBackupAppDelegate.h */,
+				992AD4F213BC5A1600417F03 /* SmsBackupAppDelegate.m */,
+				992AD53513BC662D00417F03 /* Resources */,
+				992AD4E913BC5A1600417F03 /* Supporting Files */,
+			);
+			path = SmsBackup;
+			sourceTree = "<group>";
+		};
+		992AD4E913BC5A1600417F03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				992AD4EA13BC5A1600417F03 /* SmsBackup-Info.plist */,
+				992AD4EB13BC5A1600417F03 /* InfoPlist.strings */,
+				992AD4EE13BC5A1600417F03 /* SmsBackup-Prefix.pch */,
+				992AD4EF13BC5A1600417F03 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		992AD52813BC645300417F03 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				992AD52313BC5FFB00417F03 /* SMSViewController.h */,
+				992AD52413BC5FFB00417F03 /* SMSViewController.m */,
+				992AD4F713BC5A1600417F03 /* RootViewController.h */,
+				992AD4F813BC5A1600417F03 /* RootViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		992AD52913BC646A00417F03 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				992AD50413BC5AAC00417F03 /* ArrayHelper.h */,
+				992AD50513BC5AAC00417F03 /* ArrayHelper.m */,
+				992AD50613BC5AAC00417F03 /* DB.h */,
+				992AD50713BC5AAC00417F03 /* DB.m */,
+				992AD50813BC5AAC00417F03 /* MiscHelper.h */,
+				997A61171525656D00746AA5 /* MiscHelper.m */,
+				992AD51013BC5AAD00417F03 /* SQLiteHelper.h */,
+				992AD51113BC5AAD00417F03 /* SQLiteHelper.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		992AD52A13BC64B500417F03 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				992AD50D13BC5AAD00417F03 /* SMS.h */,
+				992AD50E13BC5AAD00417F03 /* SMS.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		992AD52B13BC65CE00417F03 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				992AD52513BC5FFC00417F03 /* SMSViewController.xib */,
+				992AD4F413BC5A1600417F03 /* MainWindow.xib */,
+				992AD4FA13BC5A1600417F03 /* RootViewController.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		992AD53513BC662D00417F03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				992AD54A13BC6FA800417F03 /* Icon.png */,
+				992AD54B13BC6FA800417F03 /* Icon@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		992AD4DD13BC5A1600417F03 /* SmsBackup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 992AD4FF13BC5A1600417F03 /* Build configuration list for PBXNativeTarget "SmsBackup" */;
+			buildPhases = (
+				992AD4DA13BC5A1600417F03 /* Sources */,
+				992AD4DB13BC5A1600417F03 /* Frameworks */,
+				992AD4DC13BC5A1600417F03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmsBackup;
+			productName = SmsBackup;
+			productReference = 992AD4DE13BC5A1600417F03 /* SmsBackup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		992AD4D513BC5A1600417F03 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 992AD4D813BC5A1600417F03 /* Build configuration list for PBXProject "SmsBackup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 992AD4D313BC5A1600417F03;
+			productRefGroup = 992AD4DF13BC5A1600417F03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				992AD4DD13BC5A1600417F03 /* SmsBackup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		992AD4DC13BC5A1600417F03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992AD4ED13BC5A1600417F03 /* InfoPlist.strings in Resources */,
+				992AD4F613BC5A1600417F03 /* MainWindow.xib in Resources */,
+				992AD4FC13BC5A1600417F03 /* RootViewController.xib in Resources */,
+				992AD52713BC5FFD00417F03 /* SMSViewController.xib in Resources */,
+				992AD54D13BC6FA800417F03 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		992AD4DA13BC5A1600417F03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992AD4F013BC5A1600417F03 /* main.m in Sources */,
+				992AD4F313BC5A1600417F03 /* SmsBackupAppDelegate.m in Sources */,
+				992AD4F913BC5A1600417F03 /* RootViewController.m in Sources */,
+				992AD51213BC5AAD00417F03 /* ArrayHelper.m in Sources */,
+				992AD51313BC5AAD00417F03 /* DB.m in Sources */,
+				992AD51713BC5AAD00417F03 /* SMS.m in Sources */,
+				992AD51813BC5AAD00417F03 /* SQLiteHelper.m in Sources */,
+				992AD52613BC5FFD00417F03 /* SMSViewController.m in Sources */,
+				997A61181525656D00746AA5 /* MiscHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		992AD4EB13BC5A1600417F03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				992AD4EC13BC5A1600417F03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		992AD4F413BC5A1600417F03 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				992AD4F513BC5A1600417F03 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		992AD4FA13BC5A1600417F03 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				992AD4FB13BC5A1600417F03 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		992AD4FD13BC5A1600417F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		992AD4FE13BC5A1600417F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		992AD50013BC5A1600417F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmsBackup/SmsBackup-Prefix.pch";
+				INFOPLIST_FILE = "SmsBackup/SmsBackup-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		992AD50113BC5A1600417F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmsBackup/SmsBackup-Prefix.pch";
+				INFOPLIST_FILE = "SmsBackup/SmsBackup-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		992AD4D813BC5A1600417F03 /* Build configuration list for PBXProject "SmsBackup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992AD4FD13BC5A1600417F03 /* Debug */,
+				992AD4FE13BC5A1600417F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		992AD4FF13BC5A1600417F03 /* Build configuration list for PBXNativeTarget "SmsBackup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992AD50013BC5A1600417F03 /* Debug */,
+				992AD50113BC5A1600417F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 992AD4D513BC5A1600417F03 /* Project object */;
+}
